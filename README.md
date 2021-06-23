@@ -1,4 +1,4 @@
-# 概览：
+# 概览
 
 智能接入盒子是基于智能硬件的一站式上云方案。
 
@@ -18,10 +18,10 @@
 ## 1.功能介绍
 
 * [网络稳定性保障](/accessgw/stability.md)
+
 * [自动容灾](/accessgw/recovery.md)
+
 * [自研VPN加密方案](/accessgw/VPN.md)
-
-
 
 
 
