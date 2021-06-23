@@ -11,7 +11,7 @@
 - 支持多地域接入，支持全球网络加速
 - 提供实时监控app，数据查看至赫兹级别
 
-​       [功能介绍](#1功能介绍)    |     [使用场景介绍](#3使用场景介绍)
+​       [功能介绍](#1功能介绍)  
 
 
 
@@ -20,13 +20,6 @@
 * [网络稳定性保障](/accessgw/stability.md)
 * [自动容灾](/accessgw/recovery.md)
 * [自研VPN加密方案](/accessgw/VPN.md)
-
-## 2.使用场景介绍
-
-对云计算服务商比超算中心与，UCloud EPC平台的优势所在。
-
-* [无人化港口应用](/accessgw/port.md)
-* [场景电商应用](/accessgw/e-commerce.md)
 
 
 
