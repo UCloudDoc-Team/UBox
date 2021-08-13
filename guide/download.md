@@ -36,7 +36,7 @@
 
 ##### 2.使用WorkBench、TablePlus直接打开db文件
 
-WorkBench(免费，需对db文件的格式进行转化)
+WorkBench(免费) 需对db文件的格式进行转化，下图使用ide将db文件转化为sql格式
 
 ![download4](../images/download4.png)
 
