@@ -25,5 +25,5 @@
 * 应用场景   
   * [无人化港口场景](/accessgw/strategy/port.md)
   
-  * [电商应用场景](/accessgw/strategy/e-commerce.md)
+  * [电商应用场景](/accessgw/strategy/ecommerce.md)
 
