@@ -2,7 +2,7 @@
 
 ##### **方法一：控制台页面查看**
 
-1.登陆控制台 https://console.ucloud.cn/
+1.登陆控制台 https://console.ucloud.cn/ ，进入智能接入盒子页面。
 
 2.全部产品—物联网—智能接入盒子
 
