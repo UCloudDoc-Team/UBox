@@ -22,5 +22,6 @@
 <img src="../images/check2.png" alt="check2" style="zoom:63%;" />
 
 3. 控制台账号登录APP，收集上报接入盒子数据指标（ip地址、信号、带宽、延迟、丢包率），展示亚秒级别数据，设备在线/离线状态以不同亮度区分。    
-4. <img src="../images/check3.png" alt="check3" style="zoom:25%;" /><img     src="../images/check4.png" style="zoom:25%;" />                  
+
+   <img src="../images/check3.png" alt="check3" style="zoom:25%;"/><img src="../images/check4.png" style="zoom:25%;" />                   
 

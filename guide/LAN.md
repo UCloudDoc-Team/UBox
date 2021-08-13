@@ -16,4 +16,4 @@
 
 ![图片9](../images/图片9.png)
 
-<img src="../images/lan.png" alt="lan.png" style="zoom:150%;" />
+<img src="../images/lan.png" alt="lan.png" style="zoom:150%;"/>

@@ -30,7 +30,7 @@
 
   ![](../images/download1.png)
 
-- 输入：`.table`  查看数据表                                      <img src="../images/download2.png" alt="img" style="zoom:60%;" />
+- 输入：`.table`  查看数据表                                      <img src="../images/download2.png" alt="img" style="zoom:60%;"/>
 
 ##### 2.使用WorkBench、TablePlus直接打开db文件
 
