@@ -24,7 +24,7 @@
 
 ##### 1.使用sqlite
 
-- 输入:`cd File`，切换到您存放db文件的目录，比下图存放在/downloads目录下<img src="../images/download.png" alt="download" style="zoom:67%;" />
+- 输入:`cd File`，切换到您存放db文件的目录，比下图存放在/downloads目录下![](../images/download.png)
 
 - 输入：`sqlite3 + 文件名.db` 打开db文件
 
