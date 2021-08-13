@@ -1,0 +1,277 @@
+CTYPE html>
+<!DOCTYPE html><html>
+<head>
+    <title>Login - CAS &#8211; Central Authentication Service</title>
+    <meta charset="UTF-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><!-- <link rel="stylesheet" th:href="@{#{webjars.fontawesomemin.css}}"/>
+    <link type="text/css" rel="stylesheet" th:href="@{#{webjars.latomin.css}}"/>
+
+    
+    <link rel="stylesheet" href="../static/css/cas.css" th:href="@{${#themes.code('cas.standard.css.file')}}"/>--><link rel="icon" href="/cas/favicon.ico" type="image/x-icon"/><script type="text/javascript" src="/cas/webjars/jquery/3.3.1/jquery.min.js"></script>
+<script>
+        $(document).ready(function(){
+             var time = Math.random();
+             var path = "/cms/SP1262803906/cms-index/index.html?" + time;
+             $.ajax({
+                    type : "GET", 
+                    url : path,
+                    contentType : "text/html; charset=utf-8",
+                    xhrFields: {
+                        withCredentials: true
+                    },
+                    crossDomain: true,
+                    success : function(data, status) {
+                        $('body>header,body>main,body>footer').hide();
+                        $('body').append(data);
+                    }
+             });
+         });
+    </script>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><!--<link href="../../static/css/cas.css" rel="stylesheet" th:remove="tag" />--><script>
+   $(document).ready(function(){
+	$('body').prop('firstChild').remove();
+    });
+    </script>
+</head>
+
+<body class="login" style="display:none;">
+<header role="banner">
+        <nav class="navbar navbar-expand-md fixed-top">
+            <a class="navbar-brand" href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 336.82 167.83" class="logo"><defs><style>.cls-1{fill:#024d71;}.cls-2{fill:#74c163;}</style></defs><title>cas_logo</title><g id="Layer_2" data-name="Layer 2"><path class="cls-1" d="M217.72,469.85c-17.68,1.31-38.31,1-54.18-7.87-12.59-7-23.71-18.52-28.72-32.14a82,82,0,0,1-4.49-27.49c0-36.26,16.11-64.23,40.29-80.34,16.59-11.38,36-16.83,58.54-16.83,17.3,0,30.34,4,35.08,6.64l-9.48,27.73c-4.5-2.38-15.17-5.22-28.92-5.22s-26.78,4.27-36.5,12.33c-13.27,11.13-22,29.39-22,51.66,0,25.6,14.46,42.67,42.43,42.67a161.48,161.48,0,0,0,22.38-1.19Z" transform="translate(-130.33 -305.18)"/><path class="cls-1" d="M322.77,398.75l-2.72-30.4c-.71-8.76-1.42-21.56-2.14-31.28h-.71c-4,9.72-8.53,22-12.8,31.28l-13.69,30.08-13.53,33.43-17.33,38.41h-36.5l78-159.75h43.85l18.49,159.75H327.87l-3.05-38.12Z" transform="translate(-130.33 -305.18)"/><path class="cls-1" d="M364.31,438.85c12.27,3.81,21.29,5.19,36.22,5.19,13,0,20.87-6.71,20.87-19,0-9.24-6.87-14.93-21.57-22.75-16.82-9-32.94-21.8-32.94-42.42,0-32.24,28-51.91,62.81-51.91,19.19,0,30.57,4.27,37.44,7.82l-10.66,28.44a62.94,62.94,0,0,0-29.63-6.87c-15.88,0-24.17,7.82-24.17,16.59,0,9.48,9.72,15.17,23.23,22.75,19.43,10.19,31.52,23.23,31.52,42.43,0,35.55-29.44,55.72-64.71,53.8a231.52,231.52,0,0,1-24.78-2.61Z" transform="translate(-130.33 -305.18)"/></g><g id="swoosh"><path class="cls-2" d="M257.45,432.24a41.64,41.64,0,0,1,13.11-.32,39.17,39.17,0,0,1,16.89,6.2l0,0c10.55-15,29.11-25,50.24-25,19.75,0,37.34,8.85,48.16,22.28l1-.77c-12.85-17.31-37.44-29-65.67-29-26.92,0-50.54,10.65-63.81,26.65Z" transform="translate(-130.33 -305.18)"/></g></svg></a>
+        </nav>
+    </header>
+
+<main role="main" class="container mt-3 mb-3">
+    <div id="content" class="row">
+        <div class="col-md">
+            <div class="card">
+                <div class="card-header text-center">
+                  <img src="images/ucloud-logo.png"><!-- <h2 th:text="#{cas.login.pagetitle}">Login</h2>
+                    <span class="fa-stack fa-2x hidden-xs">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
+                    </span> --></div>
+                <div class="card-body">
+                    <form method="post" id="fm1" action="login">
+                        <!-- <h3 th:utext="#{screen.welcome.instructions}">Enter your Username and Password</h3> --><section class="form-group">
+                            <label for="username"><i class="iconfont icon-mail"></i></label>
+
+                            <div>
+                                <input class="form-control required"
+                                       id="username"
+                                       size="25"
+                                       tabindex="1"
+                                       type="text"
+                                       placeholder="用户名"
+                                       accesskey="n"
+                                       autocomplete="off" name="username" value=""/></div>
+                        </section>
+
+                        <section class="form-group">
+                            <label for="password"><i class="iconfont icon-lock"></i></label>
+
+                            <div>
+                                <input class="form-control required"
+                                       type="password"
+                                       id="password"
+                                       size="25"
+                                       tabindex="2"
+                                       placeholder ="密　码"
+                                       accesskey="p"
+                                       autocomplete="off" name="password" value=""/><span id="capslock-on" style="display:none;">
+                                <p>
+                                    <i class="fa fa-exclamation-circle"></i>
+                                    <span>CAPSLOCK key is turned on!</span>
+                                </p>
+                            </span>
+                            </div>
+                        </section>
+
+                        <input type="hidden" name="execution" value="aaacc392-db1a-4d9f-8aee-4012ce1f4fc2_ZXlKaGJHY2lPaUpJVXpVeE1pSjkuU2paR2hES0czWE5lOTlaUFBBcURpRncxM25UZDhidndINTVOcHVEcjhSZ3pVaFZUcUJMUndxNVhLb3BiUFliSCtjNmNkaWlBQ01vOFI0UVN4MG9tMjJlaEp6NnpqT3h4QnhZZE8wUkxlSGkzUnVyekJYRFg2UHRQMHhla3JaMjg0UmEvMkFaS2lHSDRZRUdESVJmcWFSYWo4aTJ4bWhtU2grbk05VjVaOGZPY1dZUTZpVlVuNEJRTDRaL0VWM2FOOVA0VmZWVURza3ptVmVVZGI0aXgvU2p2aUdESEMvZlpHN3pDT0dWbDdKbVJXUE5DRVlqdkVDdHJYU29hVnJPWHBWOWhQL0xUL2I1UUtFR3p0UUR0YThxd0xBNnNNQXEvVm04ckwvRStNK1JPSCtrL2dDN1h2MVdDR2JWMStUSUQ4ZHFmMDFRaW90VlhRWmpYWGN6OHZMbzlza2N1UG5YdXQ2TC9FSEMwVHBKNnA5L1VpSDZsSG5MNDNFQ2VlZlE5TExBUVcvY0F3K3RPdVhqWWYrT3Bwd0U4d0NObjRFaVJoejhHa0Y4QXc0ditBbDJIem5TWTN6VzZpY3pScjF1V0ZnMFgvQU42RVFwbUNmT1RjanlZc0o2ZS83YloyMVAxencydWZURmZraW5jay96RGVBeWU3S1Y0ajNlenpUUjY5Z1AyTlRiMnplVU5BSkRYYzlqZXUyY2VMUkZMSW9hVjZkcVpsT3Z0djNZTGVXY0FqbnFSUW93djRIdkdlVGk5cVFmRVQwd2NpeXVpKzB1NXVJSTc2NkVEYU9RbTdYRmZkNVozUWhYMW9CalVVZG56Ny9PMks3SUpuZmZ2RUp1UWF2c05IWnVTNUpqRTgrbkZLdThvWEZLMVZRRDdxbnJhMml4NFVodUVOQ1ZtblZBVkE3QjdHa3Z6a0FERHRsVEFwYzlpUE9NRnI1UVl6K1p0RWpaMGV4aVp4OXN5YmIyVENRZUNtSnk0M205RFpGdzJFak9GNWJhUHZJbHhFUjF1eVdLclZQMkZMZ0pxVERpRDZZTXZHNkUwdDJPVUFTU1VYQmhKVkdTU003b1l4dWdBcmd0eGRzY3ZCa2RBZklWY21SNFZrMVIzV1FWWGJ2ZTlaTFdPRVZ5YUxCZWRIbmU2MDV0VUh2OGxiZUFZQTVxNVVIdHZPcG1nMHE4RmNkbWdsRHVWUWtEdzdFUCtENGNhVFFQYUpQeFNsZWJ2Ymw3WVE5NG5TYmF5TVFSWldHTzl4bzUvV2p0RW4vTXhuYnAyaUJ1ZTdNVVAyVEREY0JIL1MrMWs0NmhHZ0hROUJKM3dLWloyVjJ1aUR3RzFKTU5PUEd5VVFzalZGc0Z0UGV0ZTVWWHlkTDF4czNxRk1BQWljWHIyanhOMW4rNFBZUmFVSWFZMzRiSkdtQXBXS1RheTNTRG1kbDIrNURsUzdKaGsrOWR3emxpdE5BMjlTaDh6dU4zRWFoZkVhZEo3RERQMzdjelVQNzRkV0FnZzRrbVNQVXNNWkpRMTRwbW5YWlFCK2VKaWEwOHV3elpOUXRZTHNjeHllRkhVcHZMMkpOLzJKR3NOTnp6bU51RjdsT3RaNk9TblVWT1VrNzNOb0pRckJBK2lOaFYwU1J2Z0hzRTZXMWxBNi8zckJYdW1RTzFQOWZSQkJoNEZ3RkdMRnd1WjFaeWdRNWpZZHVnb2VGS3UySFVOVHR3R2VDcnh6bU91VjFYRHZRQ0F5bnl0aEV4NVFiSkdqR1cyUEZhSzU1UGJwa0tYMWdHVDcvZ3k5VEMrRTZVaThDcW5QbllhOGFqMXhJVnEwd3pXQjVnMHZHUHQyVk5DYW8yU0QzM3V5ZjJpNHVXMDNyR2ZXeHlFZVhTUTRzQTJpRERmbEJmN1NVSTUwcmFvZTVDSklST25LUFJ1bEZGU09xM3VCZXhKa1U0ZEFObkh6M3JWVU8ycCtTeXh3eW9mblJRQVo2WUpSRzAxeldETEpVdFNTaW9CMnczT0JRem5OaDNUVTlqa241MkU2MVZRK2RvU1dQNWRrNFpkcExsVktXY2R3eFUwbGNBMHhoNlFYRXZWV0lsaG1veVVVaE1ua2NXekdla1RhNVdqNnRiYmtlL2M0aG16aVVZOEt6VE5HcisySm9NWWVjclltakFaT1FhU01kSkxkbnAxOGcwdEswK09xNXNkMlZHbkpvUWc0dS9YUUFKMFduN0JPRzdVanltNFdNTUlvNU8xWlJBZmVSbWRXbkZJekJWVGJKZDdTR2dVWStoL1NhS0JRTEtUalJQOW95cUxQemFpa3V5U09KVWV4Z1phUkxIb3ZuT0xwMXc0ZXVsTk1IdWFZbmg4Qi9QYzZ0YVV3cDVpdTQwV2JpTFM4Q2pJUVJGU3VQVHNpSXNmQW8wWktpU0V3bkp3UXBkaSsvcnh3WlFYdlBRVy9OL2hEU1ZDKy9pRlkyTk1xeVp0Z09MNUlFaytXdDdjbThLbCtxWEhFNEdUMnF4OHpZOHlUdTltWkE4di9YVHMwWS9kN3Q3bGd1VVQzcERUbUhpaFZVNjMxYVdXWklndXp4N1h3V0JlUzljd1lLY2s2UWJGcEhLSHJNNWRwK2Nxc2Q5dXZOd2NEeWVHQnBoVGl5MGRVblh4RDQ3TldDZ1lSV2gzR2dpblFXUFpRcUViYlY3bjkwZEFNRWpIZTU0cjdBOE83Mkk0Sk13b1U4ZzVQNXlCMVdseDRERFY4ZVpuaHdqQXVZTThjL3ZxMWdnUnJqSzFOd1crQ0E0LzZhRnZoYU15Y3JEMFBMbkZuTmdjK2F4c3JXZmZwVkFFZWhkUjRHT212SWwzcEpxNXlQTXMra1l4L2t5QkZFV1dGL25kby9BYktnOGVqYzZuSVFOd1RBendiSW5mSzFRcnlGczJPZVZYRHdVRGR1TjhFWE11NndpNC9qUE5RU1d3dFBOZU5oRk9RMXAyMmJBc1UySHk2Z2pCbmk1OEJxU2NUSWtnckkvM0VJNHBwQTVMQ1ZyQlZrU2krbnpPTFNLcS9HOFFJaHZXQ0g4VG5Ma2lsaEpZSWZ0MDhsNkpuWk9RQXNjOEtWbjVTZFJQVDIzWEpiVXhIZ21WbURlUnJSM2d5d0pLbE83UWFrdFcySW5zK1kwN3ZNU3NWU051dlZiaUlCOTBtb01lQ3NXUHpQc05iRG9EcU5YYVppUHFLcllkTE5yQ29SNmljamZxR1lFYlBRZXJTN3BrK1hpTVdOWjQ4OENTMHhCMjYwYXpCVFFHdXVLcHJOQUpQS1I0czR5WXVsaEVFSE9CMWt1dHpMa3drYmN4UjBueUhEdVV0THVieklKbk5IM3Fud2RsSjZJWlJoUUQvUmF0NXB0Q2ZLNUZ2eGg3Vmt6VXdiRkM5VmVXTlZHTjdrbXNpQmwycmhwTlZvQzNEZTcrbk90azRDRzlJZzB6aXFwaGQvZHhQaktsU3duMnloOWw2VzB0YzhMWW45ckE0U0IyQWJUMCtwZi9sWGJ6OUdCRzVjU1kyR0Ivb3I4dXY2M1RMYm9HWVFYQjJNcTdmL0JjM1plemYyWjJPd3RhQU8xU013ZDZ2UmZsMGduM3BoVnVkMWRrYlVsbm13NG10dnNOTllEdTJNVEt2dUVUQS9aVmZSODR6QkljSU9uVHNUQldnVHBSdStrMmpzTUUzaUM3Y0lFbFZCSFZmMmswU1ZNVnhKTDdINEhYaTE4QlZ2c2IxUjVKUys0dTVkS2xqL09xeGgrT3A0RzZzMk5sSDNsU2RsYmE5Q2pqUnRDUkZKV2RhdGk5ZHRmRVUwNGxtNm5ycG5mSFpKMWRNdmlNZmJCVkVuL1lPbmRVZGVacklGUm1ROGlrWUdsMDFRcGpwemdGdTBWV2U4ejB0eHNwRmhoS1UxNE84Uzh3SFVRUW9PWEF1ZUYxVzJMSFB4WXlnL0ZwcXNwV2dGekFZRlh5NDU5dHE4bytLaWJReVpwVktDazFTdEJrcXljZHFRUEZyM0hHUEJBKzh3WEZyT1c2RzhhTzJjckRmVnl6UWNzYUNOWUkrdFlxQVgyUHRTMzJnc3RORHg3VjNKYkhseEtKVVZoL2JTeDU4dFMyb2IyYm5wc3dLYmwxR3RZKzBmMHQvQUNJQWRaN2hDRlI1RXVxUXZybmljaEE2WmdRNnRUcU1VbUg0TmcwWjNRaE9aWnJWRnZ2SDRseUtqNkhBb0Y3enJmQTdBSjU1dWJpbUFTdklEM0JQK3M9LnpHeGx0QzJNTmJONE1GWi1zSU4xSnVhd210emwzNzhDcXU1b1RzOTJoSklyOFVmVWVBUklDMHNHdU9PYUVtMlR5TnR1SV9JNWhiTjlhNGlXbHo2cEdR"/><input type="hidden" name="_eventId" value="submit"/><input type="hidden" name="geolocation"/><div class="btn-container">
+                            <input class="btn btn-block btn-reset"
+                               type="button"
+                               name="reset"
+                               value="重置"
+                            /><input class="btn btn-block btn-submit"
+                                   name="submit"
+                                   accesskey="l"
+                                   tabindex="6"
+                                   type="submit"
+                                   value="登录"
+                            /></div>
+                        </form>
+
+                    <div style="display: none;">
+                        <span class="fa fa-question-circle"></span>
+                        <span><a href="https://pwd.example.org">Forgot your password? </a></span>
+                        <p/></div>
+
+                    <script type="text/javascript">
+                        var i = "\u8BA4\u8BC1\u4E2D..."
+                        $( document ).ready(function() {
+                            $("#fm1").submit(function () {
+                                $(":submit").attr("disabled", true);
+                                $(":submit").attr("value", i);
+                                console.log(i);
+                                return true;
+                            });
+                        });
+                    </script>
+
+                    <div id="sidebar" style="display: none;">
+        <div class="sidebar-content">
+            <p>出于安全考虑，一旦您访问过那些需要您提供凭证信息的应用时，请操作完成之后<a href="logout">登出</a>并关闭浏览器。</p>
+        </div>
+    </div>
+                </div>
+            </div>
+        </div>
+        <div id="notices" class="col-md mt-3 mt-md-0">
+            <div id="insecureNotice" class="card">
+        <div class="card-body">
+            <h5 class="card-title">Non-secure Connection</h5>
+            <p class="card-text">You are currently accessing CAS over a non-secure connection. Single Sign On WILL NOT WORK. In order to have single sign on work, you MUST log in over HTTPS.</p>
+        </div>
+    </div>
+            <div id="cookiesDisabled" class="card" style="display: none;">
+    <div class="card-body">
+        <h5 class="card-title">Browser cookies disabled</h5>
+        <p class="card-text">Your browser does not accept cookies. Single Sign On WILL NOT WORK.</p>
+    </div>
+</div>
+            <div id="serviceui" class="alert alert-info">
+    <div>
+        <table>
+            <tr>
+                <td>
+                    <img src="images/webapp.png"/></td>
+                <td id="servicedesc">
+                    <h2>HTTPS and IMAPS</h2>
+                    <p>This service definition authorizes all application urls that support HTTPS and IMAPS protocols.</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+            <script>
+            var redirectTo = $( "a[autoRedirect=true]" ).attr("href");
+            if (redirectTo != null && redirectTo != undefined) {
+                window.location.href = redirectTo;
+            }
+        </script>
+
+    <div id="cas-resource-list" class="card d-sm-none d-md-block">
+        <div class="card-body">
+            <h3 class="card-title">Links to CAS Resources</h3>
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <a href="/cas/status/dashboard">
+                        <i class="fa fa-cogs"></i>Dashboard
+                    </a>
+                </li>
+                <li class="list-group-item">
+                    <a href="http://apereo.github.io/cas">
+                        <i class="fa fa-file"></i>Documentation
+                    </a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://github.com/apereo/cas/pulls">
+                        <i class="fa fa-bug"></i>Pull Requests
+                    </a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://apereo.github.io/cas/developer/Contributor-Guidelines.html">
+                        <i class="fa fa-bug"></i>Contributor Guidelines
+                    </a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://apereo.github.io/cas/Mailing-Lists.html">
+                        <i class="fa fa-envelope"></i>Mailing Lists
+                    </a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://gitter.im/apereo/cas">
+                        <i class="far fa-comment-alt"></i>Chatroom
+                    </a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://apereo.github.io/">
+                        <i class="fa fa-rss"></i> Blog
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+        </div>
+    </div>
+</main>
+
+<footer class="footer" role="contentinfo">
+        <div class="container">
+            <span id="copyright">版权所有 &copy; 2005&ndash;2012 Apereo, Inc. 保留全部权利。</span>
+            <span>Powered by <a href="http://www.apereo.org/cas">
+                Apereo Central Authentication Service
+                <span>5.3.2</span>
+                <span>2019-01-24T02:36:38Z</span> </a>
+            </span>
+        </div>
+    </footer>
+
+<script type="text/javascript" src="/cas/webjars/zxcvbn/4.3.0/zxcvbn.js"></script>
+<script type="text/javascript" src="/cas/webjars/jquery-ui/1.12.1/jquery-ui.min.js"></script>
+<script type="text/javascript" src="/cas/webjars/jquery-cookie/1.4.1-1/jquery.cookie.js"></script>
+<script src="/cas/webjars/bootstrap/4.1.0/js/bootstrap.bundle.min.js"></script>
+
+<script src="/cas/webjars/headjs/1.0.3/head.min.js"></script>
+<script src="/cas/webjars/store.js/1.3.17/store.min.js"></script>
+<script type="text/javascript" src="/cas/js/cas.js"></script>
+
+<script>
+head.ready(document, function () {
+    if (!window.jQuery) {
+    	var jqueryUrl = "\/cas\/webjars\/jquery\/3.3.1\/jquery.min.js"; 
+        head.load(jqueryUrl, loadjQueryUI);
+    } else {
+        notifyResourcesAreLoaded(resourceLoadedSuccessfully);
+    }
+});
+
+function loadjQueryUI() {
+	var jqueryUrl = "\/cas\/webjars\/jquery-ui\/1.12.1\/jquery-ui.min.js"; 
+	head.load(jqueryUrl, loadjQueryCookies);
+}
+
+function loadjQueryCookies() {
+	var jqueryUrl = "\/cas\/webjars\/jquery-cookie\/1.4.1-1\/jquery.cookie.js"; 
+	head.load(jqueryUrl, notifyResourcesAreLoaded(resourceLoadedSuccessfully));
+}
+
+function notifyResourcesAreLoaded(callback) {
+    if (typeof callback === "function") {
+        callback();
+    }
+}
+</script>
+
+<script>
+    /*<![CDATA[*/
+
+    var trackGeoLocation = false;
+
+    var googleAnalyticsTrackingId = null;
+
+    if (googleAnalyticsTrackingId != null && googleAnalyticsTrackingId != '') {
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', googleAnalyticsTrackingId, 'auto');
+        ga('send', 'pageview');
+    }
+
+    /*]]>*/
+</script>
+
+</body>
+</html>
+
