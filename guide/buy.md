@@ -1,5 +1,3 @@
-
-
 # 接入盒子购买指南
 
 本文主要介绍如何购买智能接入盒子并获取资源ID，可根据需求选购不同规格的接入盒子。
@@ -16,7 +14,7 @@
 
    ![buy2](../images/buy2.png)
 
-​           <img src="../images/buy3.png" alt="buy3" style="zoom:63%;" />
+​           ![buy2](../images/buy3.png)
 
 4. 不同设备版本的智能接入盒子报价如下:
 
