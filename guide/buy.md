@@ -14,7 +14,7 @@
 
    ![buy2](../images/buy2.png)
 
-​           ![buy2](../images/buy3.png)
+​           ![buy3](../images/buy3.png)
 
 4. 不同设备版本的智能接入盒子报价如下:
 
