@@ -1,6 +1,6 @@
 # 激活指南
 
-1. 支付成功后生成资源ID，此时资源在线状态显示为“未激活”状态。<img src="../images/activate1.png" style="zoom:70%;" />
+1. 支付成功后生成资源ID，此时资源在线状态显示为 “未激活” 状态。<img src="../images/activate1.png" style="zoom:70%;" />
 
    
 
