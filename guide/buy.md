@@ -14,9 +14,9 @@
 
 3. 点击【购买盒子】，选择所需购买的接入盒子盒子设备版本。
 
-   ![](../images/buy2.png)
+   ![buy2](../images/buy2.png)
 
-​        <img src="../images/buy3.png" style="zoom:62%;" />
+​           <img src="../images/buy3.png" alt="buy3" style="zoom:63%;" />
 
 4. 不同设备版本的智能接入盒子报价如下:
 

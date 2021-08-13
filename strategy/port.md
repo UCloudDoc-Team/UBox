@@ -26,4 +26,4 @@
 
 ##### 解决方案：
 
-<img src="../images/port5.png" alt="port5" style="zoom:100%;" />
+![port5](../images/port5.png)

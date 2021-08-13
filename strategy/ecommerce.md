@@ -25,5 +25,7 @@
 
 ##### 解决方案三：实时无损监控
 
-收集上报各类数据指标（信号、带宽、延迟、设备状态），展示亚秒级别数据。<img src="../images/e-commerceSend.png" style="zoom:23%;" /><img src="../images/ecommerceRecv.png" alt="ecommerceRecv" style="zoom:23%;" /><img src="../images/ecommercesSignal.png" alt="ecommercesSignal" style="zoom:23%;" />
+收集上报各类数据指标（信号、带宽、延迟、设备状态），展示亚秒级别数据。
+
+![ecommerce](../images/ecommerce.png)
 

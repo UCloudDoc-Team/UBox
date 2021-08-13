@@ -17,11 +17,11 @@
 ## 下载监控告警APP查看
 
 1. 登陆控制台 https://console.ucloud.cn/ ，进入智能接入盒子页面。
-2. 鼠标移至【移动实时监控】图标处，显示UCloud实时监控告警APP下载二维码。![](../images/check1.png)
+2. 鼠标移至【移动实时监控】图标处，显示UCloud实时监控告警APP下载二维码。![check1](../images/check1.png)
 
-<img src="../images/check2.png" alt="check2" style="zoom:63%;" />
+​        <img src="../images/check2.png" alt="check2" style="zoom:73%;" />
 
-3. 控制台账号登录APP，收集上报接入盒子数据指标（ip地址、信号、带宽、延迟、丢包率），展示亚秒级别数据，设备在线/离线状态以不同亮度区分。    
+3. 控制台账号登录APP，收集上报接入盒子数据指标(ip地址、信号、带宽、延迟、丢包率)，展示亚秒级别数据，设备在线/离线状态以不同亮度区分。    
 
-   <img src="../images/check3.png" alt="check3" style="zoom:25%;"/><img src="../images/check4.png" style="zoom:25%;" />                   
+   ​                      ![check3](../images/check3.png)                   
 
