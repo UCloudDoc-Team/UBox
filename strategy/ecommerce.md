@@ -27,5 +27,5 @@
 
 收集上报各类数据指标（信号、带宽、延迟、设备状态），展示亚秒级别数据。
 
-![ecommerce](../images/ecommerce.png)
+![commerce4](../images/ecommerce5.png)
 
