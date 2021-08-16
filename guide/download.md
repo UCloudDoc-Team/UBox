@@ -24,13 +24,13 @@
 
 ##### 1.使用sqlite
 
-- 输入:`cd File`，切换到您存放db文件的目录，比下图存放在/downloads目录下![](../images/download.png)
+- 输入:`cd File`，切换到您存放db文件的目录，比下图存放在/downloads目录下；![](../images/download.png)
 
-- 输入：`sqlite3 + 文件名.db` 打开db文件
+- 输入：`sqlite3 + 文件名.db` 打开db文件；
 
   ![](../images/download1.png)
 
-- 输入：`.table`  查看数据表       
+- 输入：`.table`  查看数据表。       
 
   ![](../images/download2.png)                               
 
