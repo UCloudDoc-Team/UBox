@@ -9,13 +9,11 @@
 * 操作指南 
 
   * 智能接入盒子  
-  
-     * [购买](/accessgw/guide/buy)
-     * [激活](/accessgw/guide/activate)
-     * [配置内网](/accessgw/guide/LAN.md)
+   * [购买](/accessgw/guide/buy)
+   * [激活](/accessgw/guide/activate)
+   * [配置内网](/accessgw/guide/LAN.md)
 
   * 监控数据
-
       * [查看]( /accessgw/guide/check)
       * [下载](/accessgw/guide/download)
       * [如何查询是否双卡](/accessgw/guide/dual-sim.md)
