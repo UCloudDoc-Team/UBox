@@ -6,8 +6,6 @@
   
   * [自动容灾](/accessgw/function/recovery.md)
 
-  * [自研VPN加密方案](/accessgw/function/VPN.md)
-
 * 操作指南 
 
   * 智能接入盒子  
