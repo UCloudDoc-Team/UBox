@@ -24,8 +24,8 @@
 
 
 ## 2.操作指南
+
 * 智能接入盒子  
-  
      * [购买](/accessgw/guide/buy)
      * [激活](/accessgw/guide/activate)
      * [配置内网](/accessgw/guide/LAN.md)
