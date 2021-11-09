@@ -2,6 +2,13 @@
 * 功能介绍
   * [网络稳定性保障](/accessgw/function/stability.md)
   * [自动容灾](/accessgw/function/recovery.md)
+* 可靠性测试
+  * [](accessgw/test/.md) 
+  * [低温运行测试](/accessgw/test/low.md)
+  * [高温运行测试](/accessgw/test/high/md)
+  * [正弦振动测试](/accessgw/test/sine.md)
+  * [随机振动测试](/accessgw/test/random.md)
+  * [冲击试验 (关机状态测试)](/accessgw/test/impact.md)
 * 操作指南 
   * 智能接入盒子  
     * [购买](/accessgw/guide/buy)
