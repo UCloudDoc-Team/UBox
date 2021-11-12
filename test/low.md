@@ -33,7 +33,7 @@ IEC 60068-2-1:2007《电工电子产品环境试验 第1部分 试验A：低温�
 
 ###### 环境温度数据来源：温湿度实验箱(YK-04)
 ![low3](../images/low3.png) 
-上图为Accessbox所处环境的温度数据，Accessbox在75摄氏度环境温度中运行24小时。
+上图为Accessbox所处环境的温度数据，Accessbox在-30摄氏度环境温度中运行24小时。
 
 ###### CPU温度数据来源：Accessbox控制台
 ![low3](../images/low4.png) 
