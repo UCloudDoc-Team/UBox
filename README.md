@@ -23,9 +23,9 @@
 
 ## 2.可靠性分析
 
-* [总测试](accessgw/overall/.md) 
+* [总测试](accessgw/test/overall.md) 
 * [低温运行测试](/accessgw/test/low.md)
-* [高温运行测试](/accessgw/test/high/md)
+* [高温运行测试](/accessgw/test/high.md)
 * [正弦振动测试](/accessgw/test/sine.md)
 * [随机振动测试](/accessgw/test/random.md)
 * [冲击试验 (关机状态测试)](/accessgw/test/impact.md)
