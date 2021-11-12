@@ -3,7 +3,7 @@
   * [网络稳定性保障](/accessgw/function/stability.md)
   * [自动容灾](/accessgw/function/recovery.md)
 * 可靠性测试
-  * [](accessgw/test/.md) 
+  * [总测试](accessgw/overall/.md) 
   * [低温运行测试](/accessgw/test/low.md)
   * [高温运行测试](/accessgw/test/high/md)
   * [正弦振动测试](/accessgw/test/sine.md)

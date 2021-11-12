@@ -47,4 +47,3 @@ https://github.com/clark-li109/UBox_reliabilitytest.git
 ## 测试结果说明
 
 苏州源控电子科技有限公司提供硬件测试结果，优刻得科技股份有限公司提供UBox功能测试结果，双方数据交叉对比分析。
-
