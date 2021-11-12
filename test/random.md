@@ -36,7 +36,7 @@ IEC 60068-2-64:2007《电工电子产品环境试验 第64部分 试验Fh：振�
 上图为Accessbox所处环境的振动数据，随机振动实验曲线。
 
 ## 信号数据分析
-Accessbox双卡4G信号数据来源：Accessbox控制台
+双卡4G信号数据来源：Accessbox控制台
 ![low1](../images/random3.png)
 上图为Accessbox在正弦振动测试过程中的信号数据，SIM卡1为中国移动4G物联网卡，SIM卡2为中国电信4G物联网卡。
 
