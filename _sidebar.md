@@ -11,12 +11,12 @@
   * [冲击试验 (关机状态测试)](/accessgw/test/impact.md)
 * 操作指南 
   * 智能接入盒子  
-    * [购买](/accessgw/guide/buy)
-    * [激活](/accessgw/guide/activate)
+    * [购买](/accessgw/guide/buy.md)
+    * [激活](/accessgw/guide/activate.md)
     * [配置内网](/accessgw/guide/LAN.md)
   * 监控数据
-    * [查看]( /accessgw/guide/check)
-    * [下载](/accessgw/guide/download)
+    * [查看]( /accessgw/guide/check.md)
+    * [下载](/accessgw/guide/download.md)
     * [如何查询是否双卡](/accessgw/guide/dual-sim.md)
     * [如何查询双卡信号值](/accessgw/guide/signal.md)
 * 应用场景   
