@@ -1,25 +1,25 @@
-* [概览](/accessgw/README.md)
+* [概览](/UBox/README.md)
 * 功能介绍
-  * [网络稳定性保障](/accessgw/function/stability.md)
-  * [自动容灾](/accessgw/function/recovery.md)
+  * [网络稳定性保障](/UBox/function/stability.md)
+  * [自动容灾](/UBox/function/recovery.md)
 * 可靠性测试
-  * [测试说明](accessgw/test/overall.md) 
-  * [低温运行测试](/accessgw/test/low.md)
-  * [高温运行测试](/accessgw/test/high.md)
-  * [正弦振动测试](/accessgw/test/sine.md)
-  * [随机振动测试](/accessgw/test/random.md)
-  * [冲击试验 (关机状态测试)](/accessgw/test/impact.md)
+  * [测试说明](UBox/test/overall.md) 
+  * [低温运行测试](/UBox/test/low.md)
+  * [高温运行测试](/UBox/test/high.md)
+  * [正弦振动测试](/UBox/test/sine.md)
+  * [随机振动测试](/UBox/test/random.md)
+  * [冲击试验 (关机状态测试)](/UBox/test/impact.md)
 * 操作指南 
   * 智能接入盒子  
-    * [购买](/accessgw/guide/buy.md)
-    * [激活](/accessgw/guide/activate.md)
-    * [配置内网](/accessgw/guide/LAN.md)
+    * [购买](/UBox/guide/buy.md)
+    * [激活](/UBox/guide/activate.md)
+    * [配置内网](/UBox/guide/LAN.md)
   * 监控数据
-    * [查看]( /accessgw/guide/check.md)
-    * [下载](/accessgw/guide/download.md)
-    * [如何查询是否双卡](/accessgw/guide/dual-sim.md)
-    * [如何查询双卡信号值](/accessgw/guide/signal.md)
+    * [查看]( /UBox/guide/check.md)
+    * [下载](/UBox/guide/download.md)
+    * [如何查询是否双卡](/UBox/guide/dual-sim.md)
+    * [如何查询双卡信号值](/UBox/guide/signal.md)
 * 应用场景   
-  * [无人化港口场景](/accessgw/strategy/port.md)
-  * [电商应用场景](/accessgw/strategy/ecommerce.md)
+  * [无人化港口场景](/UBox/strategy/port.md)
+  * [电商应用场景](/UBox/strategy/ecommerce.md)
 
