@@ -1,11 +1,3 @@
-<!--
- * @Descripttion: 
- * @version: 
- * @Author: irene.wang
- * @Date: 2021-11-19 09:48:01
- * @LastEditors: irene.wang
- * @LastEditTime: 2021-11-19 09:51:42
--->
 # 测试说明
 
 ## 测试目的
