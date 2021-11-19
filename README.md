@@ -23,12 +23,12 @@
 
 ## 2.可靠性分析
 
-* [总测试](UBox/test/overall.md) 
-* [低温运行测试](/UBox/test/low.md)
-* [高温运行测试](/UBox/test/high.md)
-* [正弦振动测试](/UBox/test/sine.md)
-* [随机振动测试](/UBox/test/random.md)
-* [冲击试验 (关机状态测试)](/UBox/test/impact.md)
+* [总测试](UBox/reliabilitytest/overview.md) 
+* [低温运行测试](/UBox/reliabilitytest/lowtemp.md)
+* [高温运行测试](/UBox/reliabilitytest/hightemp.md)
+* [正弦振动测试](/UBox/reliabilitytest/sinevibration.md)
+* [随机振动测试](/UBox/reliabilitytest/randomvibration.md)
+* [冲击试验 (关机状态测试)](/UBox/reliabilitytest/impacttest.md)
 
 ## 3.操作指南
 

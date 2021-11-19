@@ -3,12 +3,12 @@
   * [网络稳定性保障](/UBox/function/stability.md)
   * [自动容灾](/UBox/function/recovery.md)
 * 可靠性测试
-  * [测试说明](UBox/test/overall.md) 
-  * [低温运行测试](/UBox/test/low.md)
-  * [高温运行测试](/UBox/test/high.md)
-  * [正弦振动测试](/UBox/test/sine.md)
-  * [随机振动测试](/UBox/test/random.md)
-  * [冲击试验 (关机状态测试)](/UBox/test/impact.md)
+  * [测试说明](UBox/reliabilitytest/overview.md) 
+  * [低温运行测试](/UBox/reliabilitytest/lowtemp.md)
+  * [高温运行测试](/UBox/reliabilitytest/hightemp.md)
+  * [正弦振动测试](/UBox/reliabilitytest/sinevibration.md)
+  * [随机振动测试](/UBox/reliabilitytest/randomvibration.md)
+  * [冲击试验 (关机状态测试)](/UBox/reliabilitytest/impacttest.md)
 * 操作指南 
   * 智能接入盒子  
     * [购买](/UBox/guide/buy.md)
