@@ -1,3 +1,11 @@
+<!--
+ * @Descripttion: 
+ * @version: 
+ * @Author: irene.wang
+ * @Date: 2021-11-17 14:47:20
+ * @LastEditors: irene.wang
+ * @LastEditTime: 2021-11-19 09:49:15
+-->
 # 概览
 
 智能接入盒子是基于智能硬件的一站式上云方案。
@@ -29,6 +37,7 @@
 * [正弦振动测试](/UBox/reliabilitytest/sinevibration.md)
 * [随机振动测试](/UBox/reliabilitytest/randomvibration.md)
 * [冲击试验 (关机状态测试)](/UBox/reliabilitytest/impacttest.md)
+
 
 ## 3.操作指南
 
