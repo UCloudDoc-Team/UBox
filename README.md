@@ -4,7 +4,7 @@
  * @Author: irene.wang
  * @Date: 2021-11-17 14:47:20
  * @LastEditors: irene.wang
- * @LastEditTime: 2021-11-18 18:37:24
+ * @LastEditTime: 2021-11-19 09:49:15
 -->
 # 概览
 
@@ -37,7 +37,6 @@
 * [正弦振动测试](/UBox/test/sine.md)
 * [随机振动测试](/UBox/test/random.md)
 * [冲击试验 (关机状态测试)](/UBox/test/impact.md)
-
 
 
 ## 3.操作指南

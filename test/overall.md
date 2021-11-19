@@ -1,3 +1,11 @@
+<!--
+ * @Descripttion: 
+ * @version: 
+ * @Author: irene.wang
+ * @Date: 2021-11-19 09:48:01
+ * @LastEditors: irene.wang
+ * @LastEditTime: 2021-11-19 09:51:42
+-->
 # 测试说明
 
 ## 测试目的
@@ -29,6 +37,7 @@
 1. 苏州源控电子科技有限公司提供测试设备（温湿度实验箱、振动试验机）
 
 2. 优刻得科技股份有限公司提供UBox（双模组  4G+4G / 4G+5G）
+
 
 ## 测试参与人员
 
