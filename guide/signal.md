@@ -2,7 +2,7 @@
 
 ## 详情页查看
 
-1. 登陆控制台https://console.ucloud.cn/ ，进入智能接入盒子页面。
+1. 登陆控制台https://console.ucloud.cn/ ，进入无人化智能盒子页面。
 2. 控制台—详情—概览—监控信息
 3. 监控信息页查看SIM卡1小时内双卡信号强度图标数据。![signal2](../images/signal2.png)
 
@@ -12,7 +12,7 @@
 
 ## 在线状态栏查看
 
-1. 登陆控制台https://console.ucloud.cn/ ，进入智能接入盒子页面。
+1. 登陆控制台https://console.ucloud.cn/ ，进入无人化智能盒子页面。
 2. 找到所需查看的设备所对应资源ID，其右侧【在线状态】栏可直接查看双卡信号格数及网络状态，不同信号格数由该卡当前获取的信号rsrp值转化成格数，4G模组信号格数所对应rsrp值如下表注释。
 
 ​      ![signal1](../images/signal1.png)

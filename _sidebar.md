@@ -10,7 +10,7 @@
   * [随机振动测试](/UBox/reliabilitytest/randomvibration.md)
   * [冲击试验 (关机状态测试)](/UBox/reliabilitytest/impacttest.md)
 * 操作指南 
-  * 智能接入盒子  
+  * 无人化智能盒子  
     * [购买](/UBox/guide/buy.md)
     * [激活](/UBox/guide/activate.md)
     * [配置内网](/UBox/guide/LAN.md)
