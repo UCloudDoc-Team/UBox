@@ -8,7 +8,7 @@
 
 2. 控制台—全部产品—物联网—无人化智能盒子
 
-   ![](../images/图片4.png)
+   ![wecom-temp-ccbece6fdcbb06f586b5ec4f50a85ae5](https://user-images.githubusercontent.com/84131173/149449822-1412763e-2db1-480a-8f85-70252cbf9c4a.png)
 
 3. 点击【购买盒子】，选择所需购买的无人化智能盒子设备版本。
 
