@@ -22,8 +22,6 @@
 * 应用场景   
   * [无人化港口场景](/UBox/strategy/port.md)
   * [电商应用场景](/UBox/strategy/ecommerce.md)
-
-
 * 推流端环境配置
   * [CentOS]
     * [CentOS7](/UBox/config/CentOS7.md)
