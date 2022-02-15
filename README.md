@@ -20,7 +20,7 @@
 - 提供实时监控app，数据查看至赫兹级别
 
 
-#### <center>[ 功能介绍](#1功能介绍)   |   [可靠性分析](#可靠性分析)   ｜    [操作指南](#3操作指南)  |     [应用场景](#4应用场景) </center>
+#### <center>[ 功能介绍](#1功能介绍)   |   [可靠性分析](#可靠性分析)   ｜    [操作指南](#3操作指南)  |     [应用场景](#4应用场景)  |     [视频推流环境配置](#5视频推流环境配置) </center>
 
 
 
@@ -57,4 +57,13 @@
 * [电商应用场景](/UBox/strategy/ecommerce.md)
 
 
+## 5.视频推流环境配置
 
+* [CentOS]
+    *[CentOS7](/UBox/config/CentOS7.md)
+    *[CentOS8](/UBox/config/CentOS8.md)
+* [Ubuntu]
+    *[Ubuntu18](/UBox/config/Ubuntu18.md)
+    *[Ubuntu20](/UBox/config/Ubuntu20.md)
+* [Windows]
+    *[Windows](/UBox/config/Windows.md)
