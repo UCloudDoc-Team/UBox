@@ -13,9 +13,9 @@
     sudo vim /etc/apt/sources.list
 输入：`sudo vim /etc/apt/sources.list`配置 source
 
-###  **3、按“i”打开编辑模式，加入以下内容,编辑结束后wq保存**
+###  **3、按“i”打开编辑模式,加入以下内容,编辑结束后wq保存**
     deb http://ubox-deb.ucloud.cn/repos/deb/all focal ubox
-在文本中单独一行插入：`deb http://ubox-deb.ucloud.cn/repos/deb/all focal ubo`，编辑后保存
+在文本中另起一行插入：`deb http://ubox-deb.ucloud.cn/repos/deb/all focal ubox`，并保存
 
 ###  **4、输入如下指令**
     sudo apt-get update

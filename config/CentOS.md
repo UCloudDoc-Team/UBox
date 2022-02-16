@@ -20,7 +20,7 @@
 
 输入：`yum install ubox-publisher` 安装 ubox-publisher。
 
-**完成以上步骤则环境配置完成**
+### **完成以上步骤则环境配置完成**
 
 ----------
 
