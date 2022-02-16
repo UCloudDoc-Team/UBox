@@ -3,7 +3,7 @@
 ### CentOS 8
 ### *X86架构和ARM架构安装命令相同*
 ----------
-## **CentOS 7 程序安装方式如下**
+## **CentOS 7 程序安装方式**
 
 ### 1、输入如下指令
     cd /etc/yum.repos.d && wget https://ubox-repo.ucloud.cn/repos/rpm/rhel8/ubox.repo
@@ -24,7 +24,7 @@
 
 ----------
 
-## **CentOS 8 程序安装方式如下**
+## **CentOS 8 程序安装方式**
 
 ### 1、输入如下指令
     cd /etc/yum.repos.d && wget  https://ubox-repo.ucloud.cn/repos/rpm/rhel8/ubox.repo

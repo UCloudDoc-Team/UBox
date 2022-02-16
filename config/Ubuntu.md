@@ -3,7 +3,7 @@
 ### Ubuntu 18.04 LTS (Bionic Beaver)
 ### *X86架构和ARM架构安装命令相同*
 ----------
-## 程序安装方式如下
+## 程序安装方式
 
 ###  **1、输入如下指令**
     sudo apt-key adv --fetch-keys http://ubox-deb.ucloud.cn/DEB-GPG-KEY-ubox
