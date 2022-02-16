@@ -1,4 +1,6 @@
-# 程序支持 Ubuntu 20.04 LTS (Focal Fossa) 和 Ubuntu 18.04 LTS (Bionic Beaver)
+# 程序支持 
+### Ubuntu 20.04 LTS (Focal Fossa) 
+### Ubuntu 18.04 LTS (Bionic Beaver)
 &nbsp;
 # X86架构和ARM架构安装命令相同
 &nbsp;

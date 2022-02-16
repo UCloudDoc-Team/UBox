@@ -1,4 +1,6 @@
-# 程序支持 CentOS 7 和 CentOS 8
+# 程序支持
+### CentOS 7 
+### CentOS 8
 &nbsp;
 # X86架构和ARM架构安装命令相同
 &nbsp;
