@@ -57,13 +57,8 @@
 * [电商应用场景](/UBox/strategy/ecommerce.md)
 
 
-## 5.推流端环境配置
+## 5.推流程序安装方式
 
-* [CentOS]
-    * [CentOS7](/UBox/config/CentOS7.md)
-    * [CentOS8](/UBox/config/CentOS8.md)
-* [Ubuntu]
-    * [Ubuntu18](/UBox/config/Ubuntu18.md)
-    * [Ubuntu20](/UBox/config/Ubuntu20.md)
-* [Windows]
-    * [Windows](/UBox/config/Windows.md)
+* [CentOS](/UBox/config/CentOS.md)
+* [Ubuntu](/UBox/config/Ubuntu.md)
+* [Windows](/UBox/config/Windows.md)
