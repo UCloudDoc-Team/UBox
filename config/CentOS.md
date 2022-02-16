@@ -1,24 +1,22 @@
-# 程序支持的CentOS版本：
+## **程序支持的CentOS版本**
 ### CentOS 7 
 ### CentOS 8
 ### *X86架构和ARM架构安装命令相同*
 ----------
 ## **CentOS 7 程序安装方式**
 
-### 1、输入如下指令
+### 1、下载ubox.repo到/etc/yum.repos.d
     cd /etc/yum.repos.d && wget https://ubox-repo.ucloud.cn/repos/rpm/rhel8/ubox.repo
 
-输入:`cd /etc/yum.repos.d && wget https://ubox-repo.ucloud.cn/repos/rpm/rhel8/ubox.repo`  下载文件                        
 
-### 2、输入如下指令
+### 2、安装 ubox-videocontroller
     yum install ubox-videocontroller
+ubox-videocontroller用于
+安装过程中，因为是首次使用ubox仓库，所以yum会先导入ubox仓库的公钥
 
-输入：`yum install ubox-videocontroller` 安装 ubox-videocontroller。安装过程中，因为是首次使用ubox仓库，所以yum会先导入ubox仓库的公钥
-
-### 3、输入如下指令
+### 3、安装 ubox-publisher
     yum install ubox-publisher
-
-输入：`yum install ubox-publisher` 安装 ubox-publisher。
+ubox-publisher用于
 
 ### **完成以上步骤则环境配置完成**
 
@@ -26,19 +24,17 @@
 
 ## **CentOS 8 程序安装方式**
 
-### 1、输入如下指令
-    cd /etc/yum.repos.d && wget  https://ubox-repo.ucloud.cn/repos/rpm/rhel8/ubox.repo
+### 1、下载ubox.repo到/etc/yum.repos.d
+    cd /etc/yum.repos.d && wget https://ubox-repo.ucloud.cn/repos/rpm/rhel8/ubox.repo
+ubox.repo用于
 
-输入:`cd /etc/yum.repos.d && wget  https://ubox-repo.ucloud.cn/repos/rpm/rhel8/ubox.repo`  下载文件                        
-
-### 2、输入如下指令
+### 2、安装 ubox-videocontroller
     dnf install ubox-videocontroller
+ubox-videocontroller用于
+安装过程中，因为是首次使用ubox仓库，所以yum会先导入ubox仓库的公钥
 
-输入：`dnf install ubox-videocontroller` 安装 ubox-videocontroller。安装过程中，因为是首次使用ubox仓库，所以yum会先导入ubox仓库的公钥
-
-### 3、输入如下指令
+### 3、安装 ubox-publisher
     dnf install ubox-publisher
-
-输入：`dnf install ubox-publisher` 安装 ubox-publisher。
+ubox-publisher用于
 
 ### **完成以上步骤则环境配置完成**

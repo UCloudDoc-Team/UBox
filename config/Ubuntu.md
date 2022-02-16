@@ -1,32 +1,29 @@
-# 程序支持的Ubuntu版本：
+## 程序支持的Ubuntu版本
 ### Ubuntu 20.04 LTS (Focal Fossa) 
 ### Ubuntu 18.04 LTS (Bionic Beaver)
 ### *X86架构和ARM架构安装命令相同*
 ----------
 ## 程序安装方式
 
-###  **1、输入如下指令**
-    sudo apt-key adv --fetch-keys http://ubox-deb.ucloud.cn/DEB-GPG-KEY-ubox
-输入：`sudo apt-key adv --fetch-keys http://ubox-deb.ucloud.cn/DEB-GPG-KEY-ubox`获取公钥                   
+###  **1、获取公钥**
+    sudo apt-key adv --fetch-keys http://ubox-deb.ucloud.cn/DEB-GPG-KEY-ubox                
 
-###  **2、输入如下指令**
+###  **2、打开sources.list**
     sudo vim /etc/apt/sources.list
-输入：`sudo vim /etc/apt/sources.list`配置 source
 
-###  **3、按“i”打开编辑模式,加入以下内容,编辑结束后wq保存**
+###  **3、编辑sources.list**
     deb http://ubox-deb.ucloud.cn/repos/deb/all focal ubox
 在文本中另起一行插入：`deb http://ubox-deb.ucloud.cn/repos/deb/all focal ubox`，并保存
 
-###  **4、输入如下指令**
+###  **4、更新软件包**
     sudo apt-get update
-输入：`sudo apt-get update`更新软件包
 
-###  **5、输入如下指令**
+###  **5、安装 ubox-videocontroller**
     sudo apt-get install ubox-videocontroller
-输入：`sudo apt-get install ubox-videocontroller` 安装ubox-videocontroller
+ubox-videocontroller用于
 
-###  **6、输入如下指令**
+###  **6、安装 ubox-publisher**
     sudo apt-get install ubox-publisher
-输入：`sudo apt-get install ubox-publisher` 安装ubox-publisher
+ubox-publisher用于
 
 ### **完成以上步骤则环境配置完成**
