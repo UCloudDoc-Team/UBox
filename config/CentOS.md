@@ -1,7 +1,7 @@
-## **程序支持的CentOS版本**
-### CentOS 7 
-### CentOS 8
-### *X86架构和ARM架构安装命令相同*
+ **程序支持的CentOS版本**
+ CentOS 7 
+ CentOS 8
+ *X86架构和ARM架构安装命令相同*
 ----------
 ## **CentOS 7 程序安装方式**
 
