@@ -20,10 +20,10 @@
 
 ###  **5、安装 ubox-videocontroller**
     sudo apt-get install ubox-videocontroller
-ubox-videocontroller用于
+ubox-videocontroller用于rtmp推流控制
 
 ###  **6、安装 ubox-publisher**
     sudo apt-get install ubox-publisher
-ubox-publisher用于
+ubox-publisher用于硬件加速和rtmp推流
 
 ### **完成以上步骤则环境配置完成**

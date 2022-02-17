@@ -11,12 +11,12 @@
 
 ### 2、安装 ubox-videocontroller
     yum install ubox-videocontroller
-ubox-videocontroller用于
-安装过程中，因为是首次使用ubox仓库，所以yum会先导入ubox仓库的公钥
+ubox-videocontroller用于rtmp推流控制
+安装过程中，因为首次使用ubox仓库，所以yum会先导入ubox仓库的公钥
 
 ### 3、安装 ubox-publisher
     yum install ubox-publisher
-ubox-publisher用于
+ubox-publisher用于硬件加速和rtmp推流
 
 ### **完成以上步骤则环境配置完成**
 
@@ -26,15 +26,14 @@ ubox-publisher用于
 
 ### 1、下载ubox.repo到/etc/yum.repos.d
     cd /etc/yum.repos.d && wget https://ubox-repo.ucloud.cn/repos/rpm/rhel8/ubox.repo
-ubox.repo用于
 
 ### 2、安装 ubox-videocontroller
     dnf install ubox-videocontroller
-ubox-videocontroller用于
-安装过程中，因为是首次使用ubox仓库，所以yum会先导入ubox仓库的公钥
+ubox-videocontroller用于rtmp推流控制
+安装过程中，因为首次使用ubox仓库，所以yum会先导入ubox仓库的公钥
 
 ### 3、安装 ubox-publisher
     dnf install ubox-publisher
-ubox-publisher用于
+ubox-publisher用于硬件加速和rtmp推流
 
 ### **完成以上步骤则环境配置完成**
