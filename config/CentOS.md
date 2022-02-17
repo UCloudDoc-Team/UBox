@@ -11,7 +11,7 @@
 
 ### 2、安装 ubox-videocontroller
     yum install ubox-videocontroller
-ubox-videocontroller用于rtmp推流控制
+ubox-videocontroller用于rtmp推流控制。
 安装过程中，因为首次使用ubox仓库，所以yum会先导入ubox仓库的公钥
 
 ### 3、安装 ubox-publisher
@@ -29,7 +29,7 @@ ubox-publisher用于硬件加速和rtmp推流
 
 ### 2、安装 ubox-videocontroller
     dnf install ubox-videocontroller
-ubox-videocontroller用于rtmp推流控制
+ubox-videocontroller用于rtmp推流控制。
 安装过程中，因为首次使用ubox仓库，所以yum会先导入ubox仓库的公钥
 
 ### 3、安装 ubox-publisher
