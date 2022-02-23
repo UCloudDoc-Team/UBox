@@ -5,7 +5,6 @@ CentOS 7
 CentOS 8  
 X86架构和ARM架构安装命令相同  
 
-
 ## CentOS 7 程序安装方式
 
 1、下载ubox.repo到/etc/yum.repos.d
@@ -18,7 +17,7 @@ ubox.repo的md5值为 7143e9bad3423a4363e91962193a39d7 可输入 md5sum ubox.rep
 
     yum install epel-release
 
-3、安装rpmfusion源   (国内、国外选其一即可)  
+3、安装rpmfusion源  (国内、国外选其一即可)
 
 （1）国内源利用脚本下载安装（下载较快）
 
@@ -47,7 +46,6 @@ ubox.repo的md5值为 7143e9bad3423a4363e91962193a39d7 可输入 md5sum ubox.rep
 ----------
 
 
-
 ## CentOS 8 程序安装方式
 
 1、下载ubox.repo到/etc/yum.repos.d
@@ -60,7 +58,8 @@ ubox.repo的md5值为 7143e9bad3423a4363e91962193a39d7 可输入 md5sum ubox.rep
 
     dnf install epel-release
 
-3、安装rpmfusion源   (国内、国外选其一即可)  
+3、安装rpmfusion源   (国内、国外选其一即可)
+
 （1）国内利用脚本下载安装（下载较快）
 
    \*下载脚本  
