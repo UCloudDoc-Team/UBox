@@ -1,5 +1,5 @@
 # ubox-videocontroller 安装指南
-
+ 
 软件支持
 
 |  paltform / arch   | centos7  | centos8  |  focal  |  bionic 
