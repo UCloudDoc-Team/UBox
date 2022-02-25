@@ -1,10 +1,15 @@
-# CentOS
+# ubox-videocontroller 安装指南
 
-程序支持的CentOS版本  
-CentOS 7  
-CentOS 8  
+软件支持
+
+|  paltform / arch   | centos7  | centos8  |  focal  |  bionic 
+|  ----  | ----  | ----  | ----  | ----  |
+| i386  | 不支持 | 不支持 | 不支持 | 不支持 |
+| amd64  | 支持 | 支持 | 支持 | 支持 |
+|  x86_64  | 支持 | 支持 | 支持 | 支持 |
+|  arm64  | 支持 | 支持 | 支持 | 支持 |
+
 X86架构和ARM架构安装命令相同  
-
 ## CentOS 7 程序安装方式
 
 1、下载ubox.repo到/etc/yum.repos.d
