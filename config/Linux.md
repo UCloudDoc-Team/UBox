@@ -4,8 +4,8 @@
 
 |  arch / paltform   |  arm64 |   amd64  | x86_64  | i386  |
 |  :----  | :----  | :---- | :----  | :----  |
-|  Ubuntu 20.04 LTS focal  | 支持 | 支持 | 支持 | 不支持 |
-|  Ubuntu 18.04 LTS bionic  | 支持 | 支持 | 支持 | 不支持 |
+|  Ubuntu 20.04 LTS Focal  | 支持 | 支持 | 支持 | 不支持 |
+|  Ubuntu 18.04 LTS Bionic  | 支持 | 支持 | 支持 | 不支持 |
 | centos7  | 支持 | 支持 | 支持 | 不支持 |
 | centos8  | 支持 | 支持 | 支持 | 不支持 |
  
