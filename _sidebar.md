@@ -23,6 +23,5 @@
   * [无人化港口场景](/UBox/strategy/port.md)
   * [电商应用场景](/UBox/strategy/ecommerce.md)
 * 推流程序安装方式  
-  * [CentOS](/UBox/config/CentOS.md)
-  * [Ubuntu](/UBox/config/Ubuntu.md)
+  * [Linux](/UBox/config/Linux.md)
   * [Windows](/UBox/config/Windows.md)
