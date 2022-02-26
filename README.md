@@ -59,6 +59,5 @@
 
 ## 5.推流程序安装方式
 
-* [CentOS](/UBox/config/CentOS.md)
-* [Ubuntu](/UBox/config/Ubuntu.md)
+* [Linux](/UBox/config/Linux.md)
 * [Windows](/UBox/config/Windows.md)
