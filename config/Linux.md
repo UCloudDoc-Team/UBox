@@ -89,7 +89,7 @@ ubox.repo的md5值为 7143e9bad3423a4363e91962193a39d7 可输入 md5sum ubox.rep
 用于硬件加速、RTMP推流和推流控制。安装过程中，因为首次使用ubox仓库，所以dnf会先导入ubox仓库的公钥  
 
 
-## Ubuntu 程序安装方式
+## Ubuntu Focal/Bionic 程序安装方式
 1、获取公钥
 
     sudo apt-key adv --fetch-keys http://ubox-deb.ucloud.cn/DEB-GPG-KEY-ubox                
