@@ -13,7 +13,7 @@
 
 1、下载ubox.repo到/etc/yum.repos.d
 
-    cd /etc/yum.repos.d && wget https://ubox-repo.ucloud.cn/repos/rpm/rhel8/ubox.repo
+    curl -sL https://ubox-repo.ucloud.cn/repos/rpm/7/ubox.repo | sudo tee /etc/yum.repos.d/ubox.repo
 
 ubox.repo的md5值为 7143e9bad3423a4363e91962193a39d7 可输入 md5sum ubox.repo 进行验证
 
@@ -27,7 +27,7 @@ ubox.repo的md5值为 7143e9bad3423a4363e91962193a39d7 可输入 md5sum ubox.rep
 
    \*下载脚本  
 
-    wget https://github.com/ucloud/ubox-publisher/raw/master/util/add_rpmfusion_cn_mirror.sh；
+    wget https://github.com/ucloud/ubox-publisher/raw/master/util/add_rpmfusion_cn_mirror.sh
 
    \*为脚本添加执行权限  
 
@@ -54,7 +54,7 @@ ubox.repo的md5值为 7143e9bad3423a4363e91962193a39d7 可输入 md5sum ubox.rep
 
 1、下载ubox.repo到/etc/yum.repos.d
 
-    cd /etc/yum.repos.d && wget https://ubox-repo.ucloud.cn/repos/rpm/rhel8/ubox.repo
+    curl -sL https://ubox-repo.ucloud.cn/repos/rpm/7/ubox.repo | sudo tee /etc/yum.repos.d/ubox.repo
 
 ubox.repo的md5值为 7143e9bad3423a4363e91962193a39d7 可输入 md5sum ubox.repo 进行验证
 
@@ -68,7 +68,7 @@ ubox.repo的md5值为 7143e9bad3423a4363e91962193a39d7 可输入 md5sum ubox.rep
 
    \*下载脚本  
 
-    wget https://github.com/ucloud/ubox-publisher/raw/master/util/add_rpmfusion_cn_mirror.sh；
+    wget https://github.com/ucloud/ubox-publisher/raw/master/util/add_rpmfusion_cn_mirror.sh
 
    \*为脚本添加执行权限  
 
@@ -89,26 +89,27 @@ ubox.repo的md5值为 7143e9bad3423a4363e91962193a39d7 可输入 md5sum ubox.rep
 用于硬件加速、RTMP推流和推流控制。安装过程中，因为首次使用ubox仓库，所以dnf会先导入ubox仓库的公钥  
 
 
-## Ubuntu Focal/Bionic 程序安装方式
-1、获取公钥
+## Ubuntu 程序安装方式
+1、配置sources
 
-    sudo apt-key adv --fetch-keys http://ubox-deb.ucloud.cn/DEB-GPG-KEY-ubox                
+   \*定义REPO变量  
 
-2、打开sources.list
+    REPO=$(lsb_release -cs)                
 
-    sudo vim /etc/apt/sources.list
+   \*添加ubox.list
 
-3、编辑sources.list
+    echo "deb http://ubox-deb.ucloud.cn/repos/deb/all $REPO ubox" | sudo tee /etc/apt/sources.list.d/ubox.list
 
-    deb http://ubox-deb.ucloud.cn/repos/deb/all focal ubox
+2、获取公钥
 
-在文本中另起一行插入以上内容并保存
+    curl -sL http://ubox-deb.ucloud.cn/DEB-GPG-KEY-ubox | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/ubox.gpg
 
-4、更新软件包
+
+3、更新软件包
 
     sudo apt-get update
 
-5、安装 ubox-videocontroller
+4、安装 ubox-videocontroller
 
     sudo apt-get install ubox-videocontroller
     
