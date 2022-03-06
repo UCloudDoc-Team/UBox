@@ -31,6 +31,9 @@
 
 参数详解：
 -v /dev,/sys/class 用来识别 v4l2 摄像头 
+
 --net host 使用 hosts 模式启动，程序启动需要与外部通信，为保证网络可用性，最好设置为 host 模式 
+
 -d daemon 模式 
+
 --privileged 程序读摄像头需要权限 
