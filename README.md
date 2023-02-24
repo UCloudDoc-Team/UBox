@@ -54,7 +54,7 @@
 ## 4.应用场景
 
 * [无人化港口场景](/UBox/strategy/port.md)
-* [电商应用场景](/UBox/strategy/ecommerce.md)
+* [电商应用场景](/strategy/ecommerce.md)
 
 
 ## 5.推流程序安装方式
